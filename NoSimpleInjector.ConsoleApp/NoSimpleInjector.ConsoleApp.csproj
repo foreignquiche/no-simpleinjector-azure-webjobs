@@ -74,6 +74,10 @@
       <HintPath>..\packages\Newtonsoft.Json.6.0.8\lib\net45\Newtonsoft.Json.dll</HintPath>
       <Private>True</Private>
     </Reference>
+    <Reference Include="NoSimpleInjector.AzureWebJobs, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\NoSimpleInjector.AzureWebJobs.1.0.0\lib\net45\NoSimpleInjector.AzureWebJobs.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="SimpleInjector, Version=3.0.0.0, Culture=neutral, PublicKeyToken=984cb50dea722e99, processorArchitecture=MSIL">
       <HintPath>..\packages\SimpleInjector.3.0.0\lib\net45\SimpleInjector.dll</HintPath>
       <Private>True</Private>
@@ -112,12 +116,6 @@
       <SubType>Designer</SubType>
     </None>
     <None Include="packages.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\NoSimpleInjector.AzureWebJobs\NoSimpleInjector.AzureWebJobs.csproj">
-      <Project>{4c6b4fe1-2ab1-4138-90a9-66ced04b3700}</Project>
-      <Name>NoSimpleInjector.AzureWebJobs</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
