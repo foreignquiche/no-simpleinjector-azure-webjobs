@@ -1,0 +1,27 @@
+{
+  "version": "1.0.0-*",
+  "frameworks": {
+    "net45": {
+      "wrappedProject": "../../AzureWebJobUtilities.SimpleInjector/AzureWebJobs.SimpleInjector.csproj",
+      "bin": {
+        "assembly": "../../AzureWebJobUtilities.SimpleInjector/obj/{configuration}/AzureWebJobs.SimpleInjector.dll",
+        "pdb": "../../AzureWebJobUtilities.SimpleInjector/obj/{configuration}/AzureWebJobs.SimpleInjector.pdb"
+      },
+      "dependencies": {
+        "Microsoft.Azure.WebJobs": "1.1.0",
+        "Microsoft.Azure.WebJobs.Core": "1.1.0",
+        "Microsoft.Azure.WebJobs.ServiceBus": "1.1.0",
+        "Microsoft.Data.Edm": "5.6.2",
+        "Microsoft.Data.OData": "5.6.2",
+        "Microsoft.Data.Services.Client": "5.6.2",
+        "Microsoft.WindowsAzure.ConfigurationManager": "1.8.0.0",
+        "Newtonsoft.Json": "6.0.8",
+        "SimpleInjector": "3.0.0",
+        "SimpleInjector.Extensions.ExecutionContextScoping": "3.0.0",
+        "System.Spatial": "5.6.2",
+        "WindowsAzure.ServiceBus": "2.7.6",
+        "WindowsAzure.Storage": "4.3.0"
+      }
+    }
+  }
+}

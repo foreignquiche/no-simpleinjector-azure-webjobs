@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>NoSimpleInjector.AzureWebJobs</id>
+    <version>1.0.0</version>
+    <title>NoSimpleInjector.AzureWebJobs</title>
+    <authors>CrazyTuna</authors>
+    <owners>ForeignQuiche</owners>
+    <licenseUrl>https://github.com/foreignquiche/no-simpleinjector-azure-webjobs/blob/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/foreignquiche/no-simpleinjector-azure-webjobs</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Non official SimpleInjector extensions for Microsoft Azure Webjob</description>
+    <releaseNotes>
+        - Implementation of IJobActivator.
+        - ServiceBusTrigger: Custom MessagingProvider to handle scoping.
+        - QueueTrigger: Implementation of IQueueProcessorFactory to handle scoping.
+    </releaseNotes>
+    <copyright>Copyright 2016 ForeignQuiche</copyright>
+    <tags>SimpleInjector Azure Webjob ServiceBus Queue Trigger Scope</tags>
+  </metadata>
+</package>

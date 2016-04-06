@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NoSimpleInjector.ConsoleApp", "NoSimpleInjector.ConsoleApp\NoSimpleInjector.ConsoleApp.csproj", "{D1CE77A6-E020-4EAD-BB4A-7AD3DDFF4317}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NoSimpleInjector.AzureWebJobs", "NoSimpleInjector.AzureWebJobs\NoSimpleInjector.AzureWebJobs.csproj", "{4C6B4FE1-2AB1-4138-90A9-66CED04B3700}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D1CE77A6-E020-4EAD-BB4A-7AD3DDFF4317}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1CE77A6-E020-4EAD-BB4A-7AD3DDFF4317}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1CE77A6-E020-4EAD-BB4A-7AD3DDFF4317}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1CE77A6-E020-4EAD-BB4A-7AD3DDFF4317}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4C6B4FE1-2AB1-4138-90A9-66CED04B3700}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C6B4FE1-2AB1-4138-90A9-66CED04B3700}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C6B4FE1-2AB1-4138-90A9-66CED04B3700}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C6B4FE1-2AB1-4138-90A9-66CED04B3700}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
