@@ -38,7 +38,7 @@ namespace NoSimpleInjector.AzureWebJobs.ServiceBus
         /// </summary>
         public override Task CompleteProcessingMessageAsync(BrokeredMessage message, FunctionResult result, CancellationToken cancellationToken)
         {
-            _container.GetCurrentExecutionContextScope()?.Dispose();
+            Lifestyle.Scoped.GetCurrentScope(_container)?.Dispose();
             return base.CompleteProcessingMessageAsync(message, result, cancellationToken);
         }
     }
