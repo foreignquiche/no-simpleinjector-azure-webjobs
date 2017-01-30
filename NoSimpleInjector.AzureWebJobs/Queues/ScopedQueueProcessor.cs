@@ -39,7 +39,7 @@ namespace NoSimpleInjector.AzureWebJobs.Queues
         public override Task CompleteProcessingMessageAsync(CloudQueueMessage message, FunctionResult result,
             CancellationToken cancellationToken)
         {
-            _container.GetCurrentExecutionContextScope()?.Dispose();
+            Lifestyle.Scoped.GetCurrentScope(_container)?.Dispose();
             return base.CompleteProcessingMessageAsync(message, result, cancellationToken);
         }
     }
